@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  color: #FFF;
+
+  background: linear-gradient(180deg, #0c0505 0%, #3a3535 47.92%, #5e5858 100%);
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  display: block;
+}
+
+.container {
+  max-width: 90rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+
+}
+
+
+
+
+/* ------------ CONTEÚDO PRINCIPAL DO BODY ------------------- */
+
+.container--principal {
+  max-width: 70rem;
+  height: 27rem;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*--------------- MUSIC CARD ----------------*/
+
+
+.main-title{
+  
+  
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 1.5rem;
+
+
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #6A6363;;
+  }
+
+
+
+
+.card-body {
+  display: flex;
+  gap: 1.7rem;
+  margin-top: .75rem;
+  
+  
+}
+
+.card-body img {
+  cursor: pointer;
+  
+}
+
+.card-body img:hover {
+  transform: scale(1.01)
+}
+
+.card-title {
+  color: #FFF;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+.card-description {
+  width: 260px;
+  height: 24px;
+
+  color: #CCC3C3;
+  text-align: justify;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+

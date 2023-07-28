@@ -1,0 +1,53 @@
+
+
+.container-footer {
+  display: flex;
+  gap: 16rem;
+  
+
+  max-width: 100vw;
+  height: 8.5rem;
+
+
+  border: 2px solid rgba(0, 0, 0, 0.21);
+  background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0.00) 100%);
+
+  padding-top: .8rem;
+  padding-bottom: 1.6rem;
+  
+}
+
+.area-music-artist {
+  min-width: 12rem;
+}
+
+
+.container-controlbar-progressbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.controlbar{
+  display: flex;
+  gap: 2.5rem;
+}
+
+.controlbar img {
+  cursor:pointer;
+}
+
+
+.progressbar {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.slider {
+  display: flex;
+  width: 35rem;
+  height: 0.25rem;
+  align-items: center;
+}
